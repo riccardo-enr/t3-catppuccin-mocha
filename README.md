@@ -15,20 +15,16 @@ The changes apply to the dark variant. The original light variant is preserved.
 
 ## Install
 
-Download [catppuccin-mocha.json](https://github.com/riccardo-enr/t3-catppuccin-mocha/blob/main/catppuccin-mocha.json?raw=1) and place it at:
-
-```text
-~/.t3/userdata/themes/catppuccin-mocha.json
-```
-
-Back up an existing file at that path before replacing it.
+Download [catppuccin-mocha.json](https://github.com/riccardo-enr/t3-catppuccin-mocha/blob/main/catppuccin-mocha.json?raw=1).
 
 1. Open **Settings -> Appearance** in T3 Code.
-2. Select **Dark**.
-3. Choose **Catppuccin Mocha**.
+2. Click **+ Add theme**, then **Choose files** and select the downloaded JSON.
+3. Click **Add theme** if prompted. If T3 reports it is already installed, choose
+   **Update existing** to apply this version.
+4. Select **Dark**, then choose **Catppuccin Mocha**.
 
-If the theme is already selected, switch to another theme and back to refresh it.
-If it does not appear in the list, restart T3 Code and open Appearance again.
+To install future updates, import the new JSON and choose **Update existing**.
+Keeping a JSON file on disk alone does not register it in the theme picker.
 
 ## Credits
 
